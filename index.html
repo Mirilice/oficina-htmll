@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficina de HTML e CSS desenvolvida por Maria Alice Oliveira (Instagram @mariaaliceeumesma) e LAPSID (Instagram @lapsid.ifba) - Fevereiro/2025">
     <title>Oficina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section>
+        <section class="cabecalho">
             <h1>PANDORA</h1>
-            <div>
-                <form>
+            <div class="section-busca">
+                <form class="busca">
                     <input type="search" placeholder="busque nome ou código...">
-                    <button>
+                    <button class="btn-lupa">
                         <img src="svg/lupa.svg" alt="Lupa de busca">
                     </button>
                 </form>
-                <div>
+                <div class="emojis-busca">
                     <a href="#">
                         <img src="svg/perfil.svg" alt="">
                     </a>
@@ -33,9 +38,9 @@
             </div>
         </section>
         <section>
-            <hr>
-            <nav>
-                <ul>
+            <hr class="rosa">
+            <nav class="menu">
+                <ul class="navegacao">
                     <li><a href="#">PANDORA</a></li>
                     <li><a href="#">DIAMANTE DE LABORATORIO</a></li>
                     <li><a href="#">CHARMS</a></li>
@@ -49,13 +54,13 @@
     </header>
     <hr>
     <main>
-        <img src="imagens/principal.png" alt="">
-        <section>
+        <img src="imagens/principal.png" alt="" class="img-principal">
+        <section class="categorias">
             <div>
                 <h2>PANDORA JOIAS</h2>
-                <p>compre por categoria</p>
+                <p class="paragrafo">compre por categoria</p>
             </div>
-            <ul>
+            <ul class="compras">
                 <li>
                     <figure>
                         <img src="imagens/bracelete.png" alt="">
@@ -95,72 +100,72 @@
             </ul>
         </section>
         <section>
-            <h2>LANCAMENTOS</h2>
-            <ul>
+            <h2 class="titulo-lancamento">LANCAMENTOS</h2>
+            <ul class="lancamentos">
                 <li>
                     <figure>
                         <img src="imagens/charm-coracao.png" alt="">
-                        <figcaption>
+                        <figcaption class="produto">
                             Charm Ouro Coração e Flecha
                         </figcaption>
                     </figure>
-                    <p>R$ 1.250,00</p>
-                    <p>Ou 10x de 125,00 sem juros</p>
+                    <p class="produto">R$ 1.250,00</p>
+                    <p class="produto-negrito">Ou 10x de 125,00 sem juros</p>
                 </li>
                 <li>
                     <figure>
                         <img src="imagens/pingente-anjo.png" alt="">
-                        <figcaption>
+                        <figcaption class="produto">
                             Charm Pendente Anjo Cupido Gravado
                         </figcaption>
                     </figure>
-                    <p>R$ 1.250,00</p>
-                    <p>Ou 10x de 125,00 sem juros</p>
+                    <p class="produto">R$ 1.250,00</p>
+                    <p class="produto-negrito">Ou 10x de 125,00 sem juros</p>
                 </li>
                 <li>
                     <figure>
                         <img src="imagens/anel-flecha.png" alt="">
-                        <figcaption>
+                        <figcaption class="produto">
                             Anel de Prata Flecha Brilhante
                         </figcaption>
                     </figure>
-                    <p>R$ 1.250,00</p>
-                    <p>Ou 10x de 125,00 sem juros</p>
+                    <p class="produto">R$ 1.250,00</p>
+                    <p class="produto-negrito">Ou 10x de 125,00 sem juros</p>
                 </li>
                 <li>
                     <figure>
                         <img src="imagens/trevo.png" alt="">
-                        <figcaption>
+                        <figcaption class="produto">
                             Charm Pendente Trevo de Quatro Folhas Giratorio
                         </figcaption>
                     </figure>
-                    <p>R$ 1.250,00</p>
-                    <p>Ou 10x de 125,00 sem juros</p>
+                    <p class="produto">R$ 1.250,00</p>
+                    <p class="produto-negrito">Ou 10x de 125,00 sem juros</p>
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="disney">
             <img src="imagens/up.png" alt="">
-            <div>
-                <h2>LEVE SEUS SONHOS ÀS ALTURA</h2>
-                <p>
+            <div class="container">
+                <h2 class="disney-titulo">LEVE SEUS SONHOS ÀS ALTURA</h2>
+                <p class="descricao-up">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Rem eaque odit est deleniti neque vero enim quae soluta 
                     pariatur vitae doloremque ab repudiandae omnis voluptatibus
                     doloribus culpa quisquam, consequatur harum!
                 </p>
-                <a href="#">COMPRE AGORA</a>
+                <a href="#" class="btn-compra">COMPRE AGORA</a>
             </div>
         </section>
     </main>
-    <hr>
+    <hr class="rosa">
     <footer>
         <div>
-            <p>Pandora do Brasil Comércio LTDA</p>
-            <p>CEP</p>
+            <p>Pandora Do Brasil Comércio LTDA | Rua Olimpíadas, 205 – Conjunto 72 – 7º andar</p>
+            <p>CEP: 04551-000 | Vila Olimpia | São Paulo - SP | CNPJ: 11.023.174/0001-96</p>
         </div>
-        <div>
-            <a href=""><img src="svg/logo-instagram.svg" alt=""></a>
+        <div class="redes-sociais">
+            <a href="https://github.com/Mirilice/oficina-htmll/blob/main/index.html" target="_blank"><img src="svg/logo-instagram.svg" alt="Logo do Instagram"></a>
             <a href=""><img src="svg/logo-facebook.svg" alt=""></a>
             <a href=""><img src="svg/logo-twitter.svg" alt=""></a>
             <a href=""><img src="svg/logo-youtube.svg" alt=""></a>

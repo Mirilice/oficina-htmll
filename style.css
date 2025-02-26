@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Inter', serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 37px 77px;
+}
+a{
+    color: black;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.busca {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    width: 434px;
+    justify-content: space-between;
+    padding: 3px 13px;
+}
+input{
+    border: none; 
+    outline: none;
+    font-size: 20px;
+}
+.btn-lupa{
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.emojis-busca{
+    width: 137px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-busca{
+    display: flex;
+    justify-content: space-between;
+    width: 639px;
+}
+.rosa{
+    width: 100%;
+    background-color: #FFCAD4;
+    height: 5px;
+    border: none;
+}
+.menu{
+    margin-left: 77px;
+    width: 830px;
+    padding: 12px 0;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 120px;
+    margin: 28px 77px 329px 77px;
+}
+.img-principal{
+    width: 100%
+}
+h2{
+    font-size: 32px;
+    font-weight: 300;
+}
+.paragrafo{
+    font-size: 20px;
+    font-weight: 200;
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 16px;
+
+}
+.compras{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 4px;
+}
+.categorias{
+    display: flex;
+    justify-content: space-between;
+    gap: 63px;
+}
+.titulo-lancamento{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.lancamentos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.produto, .produto-negrito{
+    font-size: 15px;
+}
+.produto-negrito{
+    font-weight: 700;
+}
+.disney{
+    display: flex;
+}
+.disney-titulo{
+    font-size: 64px;
+    font-weight: 600;
+}
+.container{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+}
+.descricao-up{
+    font-size: 16px;
+}
+.btn-compra{
+    width: 200px;
+    height: 45px;
+    background-color: #000;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 80px;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 156px;
+}
+.btn-compra:hover{
+    background-color: pink;
+}
+
+/* border: 1px solid red; */
